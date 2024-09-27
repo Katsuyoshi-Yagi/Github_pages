@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html lang="ja"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>私のお菓子作り</title> 
+    <style> 
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        } 
+ 
+        body { 
+            font-family: Arial, sans-serif; 
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh; 
+        } 
+ 
+        header { 
+            background-color: #440000; /* 変更: ヘッダーの背景色 */
+            color: white; 
+            text-align: center; 
+            padding: 1rem; 
+        } 
+ 
+        main { 
+            flex: 1; 
+            padding: 2rem; 
+            color: #cc0000; /* 変更: メインの文字色 */
+        } 
+ 
+        footer { 
+            background-color: #440000; /* 変更: フッターの背景色 */
+            color: white; 
+            text-align: center; 
+            padding: 1rem; 
+            position: fixed; 
+            width: 100%; 
+            bottom: 0; 
+        } 
+ 
+        footer a { 
+            color: blue; /* 変更: リンクの色を青に設定 */
+            text-decoration: none; 
+        } 
+ 
+        footer a:hover { 
+            text-decoration: underline; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <header> 
+        <h1>私のお菓子作り</h1> 
+    </header> 
+ 
+    <main> 
+        <section> 
+            <h2>最近作ったお菓子</h2> 
+            <p>カップケーキ</p> 
+        </section> 
+ 
+        <section> 
+            <h2>次作りたいお菓子</h2> 
+            <p>チョコレートブラウニー</p> 
+        </section> 
+    </main> 
+ 
+    <footer> 
+        <p>連絡先: example@example.com</p> 
+        <p>フォローする:  
+            <a href="#">Twitter</a> |  
+            <a href="#">Facebook</a> |  
+            <a href="#">Instagram</a> 
+        </p> 
+    </footer> 
+</body> 
+</html>
